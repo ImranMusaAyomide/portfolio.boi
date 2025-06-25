@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Light theme for the whole landing page */
+.light-theme {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.light-theme .hero-container,
+.light-theme .about-also-section,
+.light-theme .proof-of-work,
+.light-theme .tool-container,
+.light-theme .replace-container,
+.light-theme .footer,
+.light-theme .footer-main,
+.light-theme .footer-bottom {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.light-theme .ping-btn,
+.light-theme .resume-btn,
+.light-theme .replace-ping-btn,
+.light-theme .replace-resume-btn {
+  color: #fff !important;
+}
+
+.light-theme .tool-title,
+.light-theme .tool-icon {
+  color: #111 !important;
+}
+
+.light-theme .footer-icons-row a,
+.light-theme .footer-icons a {
+  color: #111 !important;
+}
+
+.light-theme .header,
+.light-theme .header__mobile-menu {
+  background: #fff !important;
+  color: #111 !important;
+}
+
+.light-theme .header__center a,
+.light-theme .header__right a,
+.light-theme .header__theme-toggle {
+  color: #111 !important;
+}
