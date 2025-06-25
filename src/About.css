@@ -1,0 +1,53 @@
+.about-also-section {
+  background: #181818;
+  color: #fff;
+  padding: 32px 24px;
+  border-radius: 8px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.about-also-title-row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+}
+
+.about-also-title {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 16px;
+}
+
+.about-also-divider {
+  flex: 1;
+  height: 1px;
+  background: #444;
+  display: block;
+}
+
+.about-also-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about-also-list li {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 10px;
+  line-height: 1.7;
+}
+
+.about-also-icon {
+  margin-right: 12px;
+  font-size: 18px;
+  min-width: 22px;
+  text-align: center;
+  opacity: 0.85;
+}
+
+.about-also-list li:last-child {
+  margin-bottom: 0;
+}
