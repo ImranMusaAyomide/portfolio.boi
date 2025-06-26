@@ -6,6 +6,8 @@ import ProofOfWork from './ProofOfWork'
 import Tool from './Tool'
 import Replace from './replace';
 import Footer from './Footer';
+import Chat from './Chat';
+
 function App() {
   return (
     <div className="App">
@@ -15,6 +17,7 @@ function App() {
       <ProofOfWork/>
       <Tool />
       <Replace />      
+      <Chat />
       <Footer />
     </div>
   );

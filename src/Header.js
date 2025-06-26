@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './Header.css';
-import { FaGithub, FaLinkedin, FaTwitter, FaSun, FaMoon, FaInfoCircle, FaBook, FaClipboardList, FaBars, FaTimes } from 'react-icons/fa';
 
 const Header = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -34,36 +33,36 @@ const Header = () => {
         <div className="header__role">Designer, Front-End Dev & Builder</div>
       </div>
       <nav className="header__center">
-        <a href="#about"><FaInfoCircle className="header__icon" /> About</a>
-        <a href="#documentation"><FaBook className="header__icon" /> Documentation</a>
-        <a href="#assets"><FaClipboardList className="header__icon" /> Assets</a>
+        <a href="#about"><i className="fas fa-info-circle header__icon"></i> About</a>
+        <a href="#documentation"><i className="fas fa-book header__icon"></i> Documentation</a>
+        <a href="#assets"><i className="fas fa-clipboard-list header__icon"></i> Assets</a>
       </nav>
       <div className="header__right">
         <span className="header__findme">Find me on:</span>
-        <a href="https://github.com/ImranMusaAyomide" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-        <a href="https://www.linkedin.com/in/imran-musa-/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-        <a href="https://x.com/haajmuskid" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+        <a href="https://github.com/ImranMusaAyomide" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/imran-musa-/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+        <a href="https://x.com/haajmuskid" target="_blank" rel="noopener noreferrer"><i className="fab fa-x-twitter"></i></a>
         <button className="header__theme-toggle" aria-label="Toggle theme" onClick={handleThemeToggle}>
-          {theme === 'dark' ? <FaSun /> : <FaMoon />}
+          {theme === 'dark' ? <i className="fas fa-sun"></i> : <i className="fas fa-moon"></i>}
         </button>
       </div>
       {/* Hamburger icon for mobile */}
       <button className="header__menu-icon" onClick={handleMenuToggle} aria-label="Open menu">
-        {menuOpen ? <FaTimes /> : <FaBars />}
+        {menuOpen ? <i className="fas fa-times"></i> : <i className="fas fa-bars"></i>}
       </button>
       {/* Mobile menu */}
       {menuOpen && (
         <div className="header__mobile-menu">
           <nav className="header__mobile-nav">
-            <a href="#about" onClick={handleMenuToggle}><FaInfoCircle className="header__icon" /> About</a>
-            <a href="#documentation" onClick={handleMenuToggle}><FaBook className="header__icon" /> Documentation</a>
-            <a href="#assets" onClick={handleMenuToggle}><FaClipboardList className="header__icon" /> Assets</a>
+            <a href="#about" onClick={handleMenuToggle}><i className="fas fa-info-circle header__icon"></i> About</a>
+            <a href="#documentation" onClick={handleMenuToggle}><i className="fas fa-book header__icon"></i> Documentation</a>
+            <a href="#assets" onClick={handleMenuToggle}><i className="fas fa-clipboard-list header__icon"></i> Assets</a>
           </nav>
           <div className="header__mobile-socials">
             <span className="header__findme">Find me on:</span>
-            <a href="https://github.com/ImranMusaAyomide" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-            <a href="https://www.linkedin.com/in/imran-musa-/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-            <a href="https://x.com/haajmuskid" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+            <a href="https://github.com/ImranMusaAyomide" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/imran-musa-/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
+            <a href="https://x.com/haajmuskid" target="_blank" rel="noopener noreferrer"><i className="fab fa-x-twitter"></i></a>
           </div>
         </div>
       )}
