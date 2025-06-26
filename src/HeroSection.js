@@ -12,7 +12,7 @@ const HeroSection = () => {
       <div className="hero-buttons">
         <a
           className="ping-btn"
-          href="https://wa.me/2348143861167"
+          href="https://t.me/haajsensie"
           target="_blank"
           rel="noopener noreferrer"
         >
