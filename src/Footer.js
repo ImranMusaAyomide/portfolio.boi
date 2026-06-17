@@ -18,11 +18,10 @@ const Footer = () => {
               <a href="https://t.me/haajsensie" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram-plane"></i></a>
             </div>
             <div className="footer-icons-row">
-              <button aria-label="Behance" className="footer-icon-btn"><i className="fab fa-behance"></i></button>
+              <a href="https://www.behance.net/designerhaaj" aria-label="Behance" target="_blank" rel="noopener noreferrer"><i className="fab fa-behance"></i></a>
               <a href="https://medium.com/@haajmuskid" aria-label="Medium" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
               <a href="https://dribbble.com/haajeth" aria-label="Dribbble" target="_blank" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></a>
               <a href="https://www.instagram.com/haajboiz?igsh=MW01MnB5bTM5c3l0NQ==" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-              <a href="#" aria-label="Flickr"><i className="fab fa-flickr"></i></a>
               <a href="https://discord.com/users/961653685618880532" aria-label="Discord" target="_blank" rel="noopener noreferrer"><i className="fab fa-discord"></i></a>
             </div>
           </div>
@@ -43,4 +42,4 @@ const Footer = () => {
   );
 };
 
-export default Footer; 
+export default Footer;
