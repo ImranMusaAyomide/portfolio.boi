@@ -18,7 +18,7 @@ const Footer = () => {
               <a href="https://t.me/haajsensie" aria-label="Telegram" target="_blank" rel="noopener noreferrer"><i className="fab fa-telegram-plane"></i></a>
             </div>
             <div className="footer-icons-row">
-              <a href="#" aria-label="Behance"><i className="fab fa-behance"></i></a>
+              <button aria-label="Behance" className="footer-icon-btn"><i className="fab fa-behance"></i></button>
               <a href="https://medium.com/@haajmuskid" aria-label="Medium" target="_blank" rel="noopener noreferrer"><i className="fab fa-medium"></i></a>
               <a href="https://dribbble.com/haajeth" aria-label="Dribbble" target="_blank" rel="noopener noreferrer"><i className="fab fa-dribbble"></i></a>
               <a href="https://www.instagram.com/haajboiz?igsh=MW01MnB5bTM5c3l0NQ==" aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
