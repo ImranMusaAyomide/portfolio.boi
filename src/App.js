@@ -1,25 +1,40 @@
 import './App.css';
 import Header from './Header';
+import Footer from './Footer';
+
 import HeroSection from './HeroSection';
 import About from './About';
-import ProofOfWork from './ProofOfWork'
-import Tool from './Tool'
+import ProofOfWork from './ProofOfWork';
+import Tool from './Tool';
 import Replace from './replace';
-import Footer from './Footer';
 import Chat from './Chat';
 
-function App() {
+import DeveloperPage from './DeveloperPage';
+
+function HomePage() {
   return (
-    <div className="App">
-      <Header />
+    <>
       <HeroSection />
       <About />
-      <ProofOfWork/>
+      <ProofOfWork />
       <Tool />
-      <Replace />      
+      <Replace />
       <Chat />
+    </>
+  );
+}
+
+function App() {
+  const isDeveloperPage = window.location.pathname === '/developer';
+
+  return (
+    <>
+      <Header />
+
+      {isDeveloperPage ? <DeveloperPage /> : <HomePage />}
+
       <Footer />
-    </div>
+    </>
   );
 }
 

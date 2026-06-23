@@ -32,11 +32,10 @@ const Header = () => {
         <div className="header__name">Imran Musa Ayomide</div>
         <div className="header__role">Designer, Front-End Dev & Builder</div>
       </div>
-      <nav className="header__center">
-        <a href="#about"><i className="fas fa-info-circle header__icon"></i> About</a>
-        <a href="#documentation"><i className="fas fa-book header__icon"></i> Documentation</a>
-        <a href="#assets"><i className="fas fa-clipboard-list header__icon"></i> Assets</a>
-      </nav>
+      <a href="/developer">
+        <i className="fas fa-info-circle header__icon"></i>
+        HaajEth As Dev
+      </a>
       <div className="header__right">
         <span className="header__findme">Find me on:</span>
         <a href="https://github.com/ImranMusaAyomide" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
